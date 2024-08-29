@@ -23,7 +23,7 @@ export default function About() {
       >
         <div className="flex flex-col items-center py-44">
           <h1 className="text-6xl text-white font-bold font-serif">About Us</h1>
-          <p className="text-white text-center text-lg font-semibold md:w-2/4 p-10 pt-10">
+          <p className="text-white text-center font-serif text-lg font-semibold md:w-2/4 p-10 pt-10">
             Our online curriculum offers dynamic and interactive lessons for
             students. We ensure that learning is enjoyable and meaningful,
             inspiring students to explore and think critically beyond the
@@ -47,7 +47,21 @@ export default function About() {
         </div>
         <div className="flex flex-col justify-center md:flex-row md:mt-14 md:gap-24">
           <img className="w-64 md:w-96 ml-10" src={Vector} />
-          <img className="p-6" src={Content1} />
+          <div className="">
+            <h2 className="font-bold text-3xl font-serif mb-6 w-1/2">
+              Enjoy Learning with a Unique Curriculum Experience
+            </h2>
+            <p className="text-xl font-serif w-1/2">
+              We offer an engaging and interactive educational journey tailored
+              to captivate students' interest and cater to various learning
+              styles. Our curriculum connects theoritical knowledge with
+              real-world applications, ensuring practical relevance and
+              adaptability to individual needs. With an interdisciplinary
+              approach, collaborative learning and cutting-edge technology
+              integration, we foster a love for learning and equip students with
+              critical 21st century skills
+            </p>
+          </div>
         </div>
         <div className="flex flex-col justify-center md:flex-row md:mt-24 md:gap-24">
           <img className="ml-10 order-2 md:order-1" src={Content2} />
