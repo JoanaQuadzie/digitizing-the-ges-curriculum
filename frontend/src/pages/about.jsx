@@ -46,12 +46,12 @@ export default function About() {
           <img src={Underline} />
         </div>
         <div className="flex flex-col justify-center md:flex-row md:mt-14 md:gap-24">
-          <img className="w-64 md:w-96 ml-10" src={Vector} />
+          <img className="md:w-96" src={Vector} />
           <div className="">
-            <h2 className="font-bold text-3xl font-serif mb-6 w-1/2">
+            <h2 className="font-bold text-3xl font-serif my-4 ml-56 w-1/2">
               Enjoy Learning with a Unique Curriculum Experience
             </h2>
-            <p className="text-xl font-serif w-1/2">
+            <p className="text-xl font-serif w-1/2 ml-56">
               We offer an engaging and interactive educational journey tailored
               to captivate students' interest and cater to various learning
               styles. Our curriculum connects theoritical knowledge with
